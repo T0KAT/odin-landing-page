@@ -133,3 +133,39 @@ img {
     padding-bottom: 100px;
 }
     
+.container4 {
+    width: 1000px;
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta, #chcta {
+    
+    
+    
+    color:#F9FAF8;
+}
+
+#ogcta {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#button_two {
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #E5E7EB;
+    margin-left: 20px;
+}
