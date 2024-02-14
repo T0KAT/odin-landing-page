@@ -108,8 +108,7 @@ img {
 
 .container3 {
     background-color: #E5E7EB;
-    display: flex;
-    
+    display: flex;   
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -168,4 +167,14 @@ img {
     font-size: 20px;
     border: 2px solid #E5E7EB;
     margin-left: 20px;
+}
+
+.footcontainer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
