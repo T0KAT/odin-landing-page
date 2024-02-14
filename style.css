@@ -4,9 +4,13 @@
 
 body {
     margin: 0px;
+    
+    
 }
 header {
     background-color: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
     
 }
 
@@ -14,3 +18,118 @@ header {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.headlinks, .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.headcontainer_1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 32px;
+    
+}
+
+.logo, .headlinks {
+    display: flex;   
+}
+
+.headlinks {
+    margin-left: auto;
+    gap: 16px;
+}   
+
+img {
+    width: 700px;
+    height: auto;
+}
+
+.img {
+    
+    
+    margin-left: auto;
+}
+
+.headcontainer_2 {
+    display: flex;
+    margin-top: 32px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+}
+.headcontent {
+    width: 350px;
+}
+.buttons {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 3px 15px 3px 15px;
+}
+
+.infoheader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 50px;
+}
+
+
+
+.container1, .container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bluebox {
+    
+    height: 150px;
+    width: 150px;
+    
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+
+
+.subtext_1 {
+    width: 150px;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    width: 400px;
+}
+
+.authname {
+    margin-left: 150px;
+    margin-top: 10px;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+    
